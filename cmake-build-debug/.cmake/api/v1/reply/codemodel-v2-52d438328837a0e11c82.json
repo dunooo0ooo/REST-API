@@ -1,0 +1,2593 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/curl-build",
+					"childIndexes" : 
+					[
+						2,
+						6,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.curl-build-Debug-33e7bab04e0c8f8b5d04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/curl-src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "_deps/curl-build/docs",
+					"childIndexes" : 
+					[
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.curl-build.docs-Debug-d4d902b2ebe7c42eefda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/curl-src/docs"
+				},
+				{
+					"build" : "_deps/curl-build/docs/libcurl",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.curl-build.docs.libcurl-Debug-d4e30ae1bf7a7c696719.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/curl-src/docs/libcurl",
+					"targetIndexes" : 
+					[
+						241
+					]
+				},
+				{
+					"build" : "_deps/curl-build/docs/libcurl/opts",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.curl-build.docs.libcurl.opts-Debug-1beb998b8abd4c25f014.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/curl-src/docs/libcurl/opts",
+					"targetIndexes" : 
+					[
+						243
+					]
+				},
+				{
+					"build" : "_deps/curl-build/docs/cmdline-opts",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.curl-build.docs.cmdline-opts-Debug-243dc62d3e729488803f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/curl-src/docs/cmdline-opts",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "_deps/curl-build/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.curl-build.lib-Debug-11c33551a5be22b6d1cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/curl-src/lib",
+					"targetIndexes" : 
+					[
+						5,
+						238
+					]
+				},
+				{
+					"build" : "_deps/curl-build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.curl-build.src-Debug-d1ca7d7d373a71f2a8af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/curl-src/src",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"build" : "_deps/curl-build/tests",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12
+					],
+					"jsonFile" : "directory-_deps.curl-build.tests-Debug-dadf05cb28a7faad6bc2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/curl-src/tests",
+					"targetIndexes" : 
+					[
+						249,
+						250,
+						251,
+						252,
+						253,
+						254,
+						255,
+						256
+					]
+				},
+				{
+					"build" : "_deps/curl-build/tests/data",
+					"jsonFile" : "directory-_deps.curl-build.tests.data-Debug-262bd6fd3823c229e469.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/curl-src/tests/data"
+				},
+				{
+					"build" : "_deps/curl-build/tests/libtest",
+					"jsonFile" : "directory-_deps.curl-build.tests.libtest-Debug-cc49f5f5341bce6e4779.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/curl-src/tests/libtest",
+					"targetIndexes" : 
+					[
+						1,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196,
+						197,
+						198,
+						199,
+						200,
+						201,
+						202,
+						203,
+						204,
+						205,
+						206,
+						207,
+						208,
+						209,
+						210,
+						211,
+						212,
+						213,
+						214,
+						215,
+						216,
+						217,
+						218,
+						219,
+						220,
+						221,
+						222,
+						223,
+						224,
+						225,
+						226,
+						227,
+						228,
+						229,
+						230,
+						231,
+						232,
+						233,
+						234,
+						235,
+						236,
+						237,
+						239,
+						240
+					]
+				},
+				{
+					"build" : "_deps/curl-build/tests/server",
+					"jsonFile" : "directory-_deps.curl-build.tests.server-Debug-7a8d83d8ad4de0ec184a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/curl-src/tests/server",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						9,
+						242,
+						244,
+						245,
+						246,
+						247,
+						248,
+						257
+					]
+				},
+				{
+					"build" : "_deps/curl-build/tests/unit",
+					"jsonFile" : "directory-_deps.curl-build.tests.unit-Debug-cad5ce2acdf8a72cfd53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/curl-src/tests/unit"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HTTP",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"name" : "CURL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196,
+						197,
+						198,
+						199,
+						200,
+						201,
+						202,
+						203,
+						204,
+						205,
+						206,
+						207,
+						208,
+						209,
+						210,
+						211,
+						212,
+						213,
+						214,
+						215,
+						216,
+						217,
+						218,
+						219,
+						220,
+						221,
+						222,
+						223,
+						224,
+						225,
+						226,
+						227,
+						228,
+						229,
+						230,
+						231,
+						232,
+						233,
+						234,
+						235,
+						236,
+						237,
+						238,
+						239,
+						240,
+						241,
+						242,
+						243,
+						244,
+						245,
+						246,
+						247,
+						248,
+						249,
+						250,
+						251,
+						252,
+						253,
+						254,
+						255,
+						256,
+						257
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HTTP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HTTP-Debug-e68ef1bdb51a0f8177db.json",
+					"name" : "HTTP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "chkhostname::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-chkhostname-Debug-3186c711136de07d28ae.json",
+					"name" : "chkhostname",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "curl::@289a8e7b858e75571020",
+					"jsonFile" : "target-curl-Debug-f93f8f5f48e044069e31.json",
+					"name" : "curl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "curl_uninstall::@b95861b2ba384b5171eb",
+					"jsonFile" : "target-curl_uninstall-Debug-e887929de0bc8525a77a.json",
+					"name" : "curl_uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "curltool::@289a8e7b858e75571020",
+					"jsonFile" : "target-curltool-Debug-23d6533c9197e49b3010.json",
+					"name" : "curltool",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "curlu::@7349aeacaff41deceb36",
+					"jsonFile" : "target-curlu-Debug-f66502600456057d4050.json",
+					"name" : "curlu",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "disabled::@345044f74dc145e53b02",
+					"jsonFile" : "target-disabled-Debug-af08c34b1398fca8504e.json",
+					"name" : "disabled",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "fake_ntlm::@345044f74dc145e53b02",
+					"jsonFile" : "target-fake_ntlm-Debug-a27011c365d5f899792f.json",
+					"name" : "fake_ntlm",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "generate-curl.1::@5a00916153ac5cfa5e14",
+					"jsonFile" : "target-generate-curl.1-Debug-8fc6504e0f398c181407.json",
+					"name" : "generate-curl.1",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "getpart::@345044f74dc145e53b02",
+					"jsonFile" : "target-getpart-Debug-ec1c721c3d6f9655a835.json",
+					"name" : "getpart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "hostname::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-hostname-Debug-7dd58a321d363fa401ef.json",
+					"name" : "hostname",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1156::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1156-Debug-4c8cff6731f66293f08f.json",
+					"name" : "lib1156",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1301::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1301-Debug-0f517776987279703f1d.json",
+					"name" : "lib1301",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1500::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1500-Debug-ac4019d1bf5576d39ecd.json",
+					"name" : "lib1500",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1501::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1501-Debug-3bb923906cbb65b59891.json",
+					"name" : "lib1501",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1502::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1502-Debug-b590ecc37c95edc3bf7b.json",
+					"name" : "lib1502",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1503::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1503-Debug-2856b33eda591f7cdf03.json",
+					"name" : "lib1503",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1504::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1504-Debug-a1d4b21bf6359ab840c7.json",
+					"name" : "lib1504",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1505::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1505-Debug-27b6312c2b139a2ef49d.json",
+					"name" : "lib1505",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1506::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1506-Debug-78e9227c799c6c8cfbd2.json",
+					"name" : "lib1506",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1507::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1507-Debug-cd7ad8fb51562da9c8d5.json",
+					"name" : "lib1507",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1508::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1508-Debug-bcce673b1a543dbbc820.json",
+					"name" : "lib1508",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1509::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1509-Debug-40bf67154efc78ad1637.json",
+					"name" : "lib1509",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1510::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1510-Debug-481d5e033943e5075f20.json",
+					"name" : "lib1510",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1511::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1511-Debug-73602f314144bb98c7fe.json",
+					"name" : "lib1511",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1512::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1512-Debug-96aba3991ebd5dccd233.json",
+					"name" : "lib1512",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1513::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1513-Debug-543c3bde0ee8521ec456.json",
+					"name" : "lib1513",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1514::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1514-Debug-e8c5d2b41959cbcc99e7.json",
+					"name" : "lib1514",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1515::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1515-Debug-b0c74e8bb67f39d581aa.json",
+					"name" : "lib1515",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1517::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1517-Debug-6b82b7d415b090ec5235.json",
+					"name" : "lib1517",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1518::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1518-Debug-d49c0bddb4494b795804.json",
+					"name" : "lib1518",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1520::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1520-Debug-13631ec071398260329e.json",
+					"name" : "lib1520",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1521::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1521-Debug-e13400fec8d6c6369cb3.json",
+					"name" : "lib1521",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1522::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1522-Debug-cced2a2fcfef5b07e491.json",
+					"name" : "lib1522",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1523::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1523-Debug-a3abd20703dac8f254af.json",
+					"name" : "lib1523",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1525::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1525-Debug-febebf5db6bd3d8d362a.json",
+					"name" : "lib1525",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1526::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1526-Debug-b6e7acbf41d0eb60226f.json",
+					"name" : "lib1526",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1527::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1527-Debug-5e5d2229a48d2b16d534.json",
+					"name" : "lib1527",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1528::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1528-Debug-6aaf87221d84bddb81de.json",
+					"name" : "lib1528",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1529::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1529-Debug-cd80ef0bdf3745ca4f41.json",
+					"name" : "lib1529",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1530::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1530-Debug-7628dee95c8b3d1ae4f9.json",
+					"name" : "lib1530",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1531::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1531-Debug-54d3e586a1ee810050be.json",
+					"name" : "lib1531",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1532::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1532-Debug-501d2fc5629e1b5d9384.json",
+					"name" : "lib1532",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1533::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1533-Debug-1bd3c39236a2938bfb2e.json",
+					"name" : "lib1533",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1534::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1534-Debug-530de0ef334ab0cc97f6.json",
+					"name" : "lib1534",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1535::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1535-Debug-1ce86a156b25920d6ca8.json",
+					"name" : "lib1535",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1536::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1536-Debug-41cf1deae382f6369aa7.json",
+					"name" : "lib1536",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1537::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1537-Debug-859a17a8d0d7887d204a.json",
+					"name" : "lib1537",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1538::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1538-Debug-adfa768c1966ab1991c3.json",
+					"name" : "lib1538",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1539::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1539-Debug-77db2b8ffac6f3762061.json",
+					"name" : "lib1539",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1540::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1540-Debug-93a7b491d56772a8a7cd.json",
+					"name" : "lib1540",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1541::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1541-Debug-d037d64c265a2fa23f3d.json",
+					"name" : "lib1541",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1542::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1542-Debug-f71c0194b317547b9a47.json",
+					"name" : "lib1542",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1543::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1543-Debug-f9ab52cbbec931a3d6d6.json",
+					"name" : "lib1543",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1545::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1545-Debug-18a9d5cee2a3ae53b6c2.json",
+					"name" : "lib1545",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1550::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1550-Debug-ec5591db4d7aeba1b2de.json",
+					"name" : "lib1550",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1551::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1551-Debug-a0a92a7a566e2f098dc6.json",
+					"name" : "lib1551",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1552::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1552-Debug-5c4ccc3de094c225fbb3.json",
+					"name" : "lib1552",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1553::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1553-Debug-ac7f13bc011c4659e190.json",
+					"name" : "lib1553",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1554::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1554-Debug-c7d03c9c89b06719b1a8.json",
+					"name" : "lib1554",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1555::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1555-Debug-d919e1b692cf1e00ab08.json",
+					"name" : "lib1555",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1556::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1556-Debug-2e11f14e04746814e32c.json",
+					"name" : "lib1556",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1557::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1557-Debug-c4734fece82d59fc990e.json",
+					"name" : "lib1557",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1558::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1558-Debug-813b52a5c907c68b2257.json",
+					"name" : "lib1558",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1559::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1559-Debug-4066110b7d19e9c2c82c.json",
+					"name" : "lib1559",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1560::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1560-Debug-0f149440398d793572bf.json",
+					"name" : "lib1560",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1564::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1564-Debug-7cc7dec5ab1a800b088a.json",
+					"name" : "lib1564",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1565::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1565-Debug-b2a0a78b3820210620f1.json",
+					"name" : "lib1565",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1567::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1567-Debug-4a8f14a2cf8e5b1414bb.json",
+					"name" : "lib1567",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1568::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1568-Debug-418001219ca5af42e350.json",
+					"name" : "lib1568",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1569::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1569-Debug-05c1a09638dc561d1a9d.json",
+					"name" : "lib1569",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1591::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1591-Debug-168d41638b7ac888d642.json",
+					"name" : "lib1591",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1592::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1592-Debug-d46fb4b690d33d91ac8f.json",
+					"name" : "lib1592",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1593::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1593-Debug-72af14ba37357b1ad531.json",
+					"name" : "lib1593",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1594::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1594-Debug-e20cd58f46d5034cfa7b.json",
+					"name" : "lib1594",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1596::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1596-Debug-a31bac9bc11ca7028853.json",
+					"name" : "lib1596",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1597::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1597-Debug-cbc33054e0f9997c5ea3.json",
+					"name" : "lib1597",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1598::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1598-Debug-720ecfa4f719dd7da94c.json",
+					"name" : "lib1598",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1662::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1662-Debug-e4ce8f1171347f041578.json",
+					"name" : "lib1662",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1900::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1900-Debug-2045f0b07d26a6a69b09.json",
+					"name" : "lib1900",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1903::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1903-Debug-f1fa7b3cbac84cb4e0fb.json",
+					"name" : "lib1903",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1905::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1905-Debug-feaf7237520387441bd9.json",
+					"name" : "lib1905",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1906::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1906-Debug-7dc7420001b35eeeeb69.json",
+					"name" : "lib1906",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1907::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1907-Debug-952dde91d8f3aa930bc2.json",
+					"name" : "lib1907",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1908::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1908-Debug-e7d1d8146828b8d13d4d.json",
+					"name" : "lib1908",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1910::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1910-Debug-59ef379b5fa9129b19d4.json",
+					"name" : "lib1910",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1911::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1911-Debug-d2966cab7d9959b382f4.json",
+					"name" : "lib1911",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1912::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1912-Debug-211327a683f7255b40dd.json",
+					"name" : "lib1912",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1913::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1913-Debug-5bf9d71f7042cdaa82f4.json",
+					"name" : "lib1913",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1915::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1915-Debug-a21d6c8f2494397dc3bf.json",
+					"name" : "lib1915",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1916::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1916-Debug-361019eb9aa7145f11a6.json",
+					"name" : "lib1916",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1917::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1917-Debug-3db96be32e12601518f4.json",
+					"name" : "lib1917",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1918::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1918-Debug-7461b7ed5398c4561697.json",
+					"name" : "lib1918",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1919::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1919-Debug-64b6ad0d14a35da10651.json",
+					"name" : "lib1919",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1933::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1933-Debug-9a9f8e97b4d7f9eb56eb.json",
+					"name" : "lib1933",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1934::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1934-Debug-69fa635f57efe2ab924f.json",
+					"name" : "lib1934",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1935::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1935-Debug-4b60198cd48454167fb2.json",
+					"name" : "lib1935",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1936::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1936-Debug-1d4e9221b322a8fd6a8d.json",
+					"name" : "lib1936",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1937::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1937-Debug-cdc3ea5e6046a8510a2b.json",
+					"name" : "lib1937",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1938::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1938-Debug-59942c907652db72dd80.json",
+					"name" : "lib1938",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1939::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1939-Debug-c2209d86ad5f9ee470e3.json",
+					"name" : "lib1939",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1940::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1940-Debug-8d377af57ce54433d684.json",
+					"name" : "lib1940",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1945::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1945-Debug-6ef6ecd806775608b683.json",
+					"name" : "lib1945",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1946::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1946-Debug-549afc66ad580342a0e4.json",
+					"name" : "lib1946",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1947::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1947-Debug-a9e14ff0253b8fb5fc10.json",
+					"name" : "lib1947",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1948::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1948-Debug-e2243dddfadbcef675ad.json",
+					"name" : "lib1948",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1955::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1955-Debug-1c019a83f53bdaddf4d2.json",
+					"name" : "lib1955",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1956::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1956-Debug-460ed89cd58a630150ad.json",
+					"name" : "lib1956",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1957::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1957-Debug-26083a902b05cd2f8d35.json",
+					"name" : "lib1957",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1958::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1958-Debug-42826fcae21a0b98d889.json",
+					"name" : "lib1958",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1959::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1959-Debug-9ad5446ab8c0fa44a7e1.json",
+					"name" : "lib1959",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1960::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1960-Debug-9f119fa4914ddca64646.json",
+					"name" : "lib1960",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1964::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1964-Debug-8a30cdd9b1dfb5032993.json",
+					"name" : "lib1964",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1970::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1970-Debug-b44ed087aef18c20d89f.json",
+					"name" : "lib1970",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1971::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1971-Debug-f9b1b1139669e79e2920.json",
+					"name" : "lib1971",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1972::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1972-Debug-7a7c36cdc5996560b2da.json",
+					"name" : "lib1972",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1973::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1973-Debug-e0f6941e22bf0cda0a89.json",
+					"name" : "lib1973",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1974::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1974-Debug-cdae401f544f593398e7.json",
+					"name" : "lib1974",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib1975::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib1975-Debug-8f4025c1103417ed117b.json",
+					"name" : "lib1975",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib2301::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib2301-Debug-f6258ff992005c99fd29.json",
+					"name" : "lib2301",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib2302::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib2302-Debug-af85051709dc691533b8.json",
+					"name" : "lib2302",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib2304::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib2304-Debug-eb2f72ea81f9fd2bd5e0.json",
+					"name" : "lib2304",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib2305::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib2305-Debug-ffeba9ad069ea33dddad.json",
+					"name" : "lib2305",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib2306::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib2306-Debug-ccd62a65483f37b9e22e.json",
+					"name" : "lib2306",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib2402::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib2402-Debug-cc5656c5692f9cc1ebfc.json",
+					"name" : "lib2402",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib2404::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib2404-Debug-5cb8bfbdeeefb77cc53d.json",
+					"name" : "lib2404",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib2502::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib2502-Debug-dddfce667781d27294dc.json",
+					"name" : "lib2502",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib3010::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib3010-Debug-b5ea006f6a7025e3a9d8.json",
+					"name" : "lib3010",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib3025::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib3025-Debug-e29e4ed6bfd8cf00432c.json",
+					"name" : "lib3025",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib3026::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib3026-Debug-6dcab1d2ea99268bbb9d.json",
+					"name" : "lib3026",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib3027::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib3027-Debug-ac8ff217d504ed965bdb.json",
+					"name" : "lib3027",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib3100::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib3100-Debug-77c8b47654654a62549f.json",
+					"name" : "lib3100",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib3101::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib3101-Debug-ad3018984b73800b4932.json",
+					"name" : "lib3101",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib3102::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib3102-Debug-9724448abe7acfb1a609.json",
+					"name" : "lib3102",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib3103::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib3103-Debug-f234f4815af7f69467fb.json",
+					"name" : "lib3103",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib500::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib500-Debug-07eeb22201a35d17e1c8.json",
+					"name" : "lib500",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib501::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib501-Debug-c001c0712b811aba6bf1.json",
+					"name" : "lib501",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib502::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib502-Debug-18a65f3938813813313f.json",
+					"name" : "lib502",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib503::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib503-Debug-73c210479ad9b7ef1106.json",
+					"name" : "lib503",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib504::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib504-Debug-6751e830e2e005cfabde.json",
+					"name" : "lib504",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib505::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib505-Debug-e6a300e6bceeef28517a.json",
+					"name" : "lib505",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib506::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib506-Debug-a4cca45e95477f6590c5.json",
+					"name" : "lib506",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib507::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib507-Debug-fc6ccf97ab343e167459.json",
+					"name" : "lib507",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib508::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib508-Debug-55552576d52854cb48d8.json",
+					"name" : "lib508",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib509::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib509-Debug-c447598c0551c420a49a.json",
+					"name" : "lib509",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib510::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib510-Debug-3059e6e3f57a887071ec.json",
+					"name" : "lib510",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib511::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib511-Debug-0c10a63eced1a06b8487.json",
+					"name" : "lib511",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib512::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib512-Debug-ae7de8263df49028e2a4.json",
+					"name" : "lib512",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib513::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib513-Debug-4db7786ca843671be553.json",
+					"name" : "lib513",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib514::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib514-Debug-cf5a3499c8bc1c16bbd1.json",
+					"name" : "lib514",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib515::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib515-Debug-e5c78d7c14de69d7b10f.json",
+					"name" : "lib515",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib516::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib516-Debug-7a5cd0de4e53c6c2b58a.json",
+					"name" : "lib516",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib517::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib517-Debug-9154ea9dad2c6ac68275.json",
+					"name" : "lib517",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib518::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib518-Debug-cb4b086a15e5ae3fcc56.json",
+					"name" : "lib518",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib519::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib519-Debug-43879113919657e3c60d.json",
+					"name" : "lib519",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib520::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib520-Debug-e6b8a837f930418382a9.json",
+					"name" : "lib520",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib521::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib521-Debug-ce312e41aa77289fd2e3.json",
+					"name" : "lib521",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib523::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib523-Debug-55fdf6cc7360ffab231a.json",
+					"name" : "lib523",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib524::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib524-Debug-70de592cf22c3daf36f7.json",
+					"name" : "lib524",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib525::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib525-Debug-b423e6e2c397073b792a.json",
+					"name" : "lib525",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib526::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib526-Debug-bb8a7e27511c07cba165.json",
+					"name" : "lib526",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib527::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib527-Debug-783fc19a29d7a9f563b1.json",
+					"name" : "lib527",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib529::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib529-Debug-56ea42667ee0386e942a.json",
+					"name" : "lib529",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib530::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib530-Debug-5cada49d132612fef402.json",
+					"name" : "lib530",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib532::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib532-Debug-fd391d1ea7c772c2cb09.json",
+					"name" : "lib532",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib533::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib533-Debug-ae87a29ec44eb64c109f.json",
+					"name" : "lib533",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib536::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib536-Debug-8db31d737271364767dc.json",
+					"name" : "lib536",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib537::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib537-Debug-c55892be56aef68c63dc.json",
+					"name" : "lib537",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib539::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib539-Debug-99c2a7c33fba754244a3.json",
+					"name" : "lib539",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib540::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib540-Debug-fb81e76604451b88d7e1.json",
+					"name" : "lib540",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib541::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib541-Debug-7dcf4e285c1730cf8009.json",
+					"name" : "lib541",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib542::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib542-Debug-45a142bcc2a1fe45b307.json",
+					"name" : "lib542",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib543::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib543-Debug-ba850538cb2bfaaf08af.json",
+					"name" : "lib543",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib544::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib544-Debug-6f67c10b44c209c7fb4f.json",
+					"name" : "lib544",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib545::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib545-Debug-308fc858b13825bb41f6.json",
+					"name" : "lib545",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib547::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib547-Debug-fa64368b21f0e35bdf48.json",
+					"name" : "lib547",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib548::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib548-Debug-d684b97fba5c7cc003d0.json",
+					"name" : "lib548",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib549::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib549-Debug-6a33a08177530bded4a8.json",
+					"name" : "lib549",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib552::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib552-Debug-3c14c0bedebb5d1d2717.json",
+					"name" : "lib552",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib553::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib553-Debug-bf940cd02eb40078eb3d.json",
+					"name" : "lib553",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib554::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib554-Debug-8969aa850a9b914fe105.json",
+					"name" : "lib554",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib555::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib555-Debug-67a4241c3b212a03c455.json",
+					"name" : "lib555",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib556::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib556-Debug-7fa4a33d9420a71bfc13.json",
+					"name" : "lib556",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib557::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib557-Debug-4962245692e283d9a0d7.json",
+					"name" : "lib557",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib558::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib558-Debug-36e85c688323cd3b0550.json",
+					"name" : "lib558",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib559::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib559-Debug-b0a35079b7dc6183082e.json",
+					"name" : "lib559",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib560::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib560-Debug-cb5928b6da6d8933db07.json",
+					"name" : "lib560",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib562::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib562-Debug-89cec9d788a28a01126d.json",
+					"name" : "lib562",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib564::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib564-Debug-308df0e49bc381cc8ca0.json",
+					"name" : "lib564",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib565::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib565-Debug-0315e0bba4d648e5af49.json",
+					"name" : "lib565",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib566::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib566-Debug-11e271ad6e58894c55a7.json",
+					"name" : "lib566",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib567::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib567-Debug-b2b9a80ae6795c59e0f8.json",
+					"name" : "lib567",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib568::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib568-Debug-87aab599e988b7f73ced.json",
+					"name" : "lib568",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib569::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib569-Debug-cc8884b3d133402087a5.json",
+					"name" : "lib569",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib570::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib570-Debug-1b8708739b89737cdb84.json",
+					"name" : "lib570",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib571::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib571-Debug-660186c627bdebc746c3.json",
+					"name" : "lib571",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib572::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib572-Debug-9e4975fa01b05da86bcb.json",
+					"name" : "lib572",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib573::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib573-Debug-0464f03902f5322b112b.json",
+					"name" : "lib573",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib574::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib574-Debug-88c4723370f446fbeefb.json",
+					"name" : "lib574",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib575::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib575-Debug-226f4fb240217f1ede75.json",
+					"name" : "lib575",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib576::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib576-Debug-6f638f4293823e69821d.json",
+					"name" : "lib576",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib578::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib578-Debug-1eadfc23c9ae0e020738.json",
+					"name" : "lib578",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib579::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib579-Debug-71d5d7c8e0589cf8b55c.json",
+					"name" : "lib579",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib582::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib582-Debug-9798e14d700ef199a5ee.json",
+					"name" : "lib582",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib583::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib583-Debug-56f969f3134110b43e92.json",
+					"name" : "lib583",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib584::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib584-Debug-ec75a6464f09aced01e2.json",
+					"name" : "lib584",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib585::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib585-Debug-a0a78ca44b57be95300f.json",
+					"name" : "lib585",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib586::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib586-Debug-18b05c9415d5bb65a2e3.json",
+					"name" : "lib586",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib587::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib587-Debug-968a4dece12373dd8767.json",
+					"name" : "lib587",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib589::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib589-Debug-6f04f5e902524ddcc4b0.json",
+					"name" : "lib589",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib590::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib590-Debug-9bb4390d8423dfc11169.json",
+					"name" : "lib590",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib591::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib591-Debug-122698e12e8ddc31eba3.json",
+					"name" : "lib591",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib597::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib597-Debug-a3ecc08391b20970a98f.json",
+					"name" : "lib597",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib598::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib598-Debug-d65ce2d818ff5e4acf2b.json",
+					"name" : "lib598",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib599::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib599-Debug-f824524de48dde6fa261.json",
+					"name" : "lib599",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib643::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib643-Debug-c6ed4fa7193a56277e2b.json",
+					"name" : "lib643",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib645::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib645-Debug-d38b3829eaac4956e30e.json",
+					"name" : "lib645",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib650::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib650-Debug-0a6ef30131a24913f2b7.json",
+					"name" : "lib650",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib651::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib651-Debug-3b5f79c574f296eab675.json",
+					"name" : "lib651",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib652::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib652-Debug-01f1498355932d5de1fe.json",
+					"name" : "lib652",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib653::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib653-Debug-cb71697e4662d4460f15.json",
+					"name" : "lib653",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib654::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib654-Debug-f2c510972c5d113df58b.json",
+					"name" : "lib654",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib655::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib655-Debug-cc3ce0171288b09622df.json",
+					"name" : "lib655",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib658::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib658-Debug-61acd62726c7f9750e4c.json",
+					"name" : "lib658",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib659::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib659-Debug-3bb1eda87de751f37482.json",
+					"name" : "lib659",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib661::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib661-Debug-344a0322f59a79744195.json",
+					"name" : "lib661",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib666::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib666-Debug-50ef3f2b37742a957506.json",
+					"name" : "lib666",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib667::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib667-Debug-55201df15504a4ba4e31.json",
+					"name" : "lib667",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib668::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib668-Debug-0d7efcb876a4087acc5f.json",
+					"name" : "lib668",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib670::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib670-Debug-5467adf9e45f833fb31d.json",
+					"name" : "lib670",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib671::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib671-Debug-a348ce7a4d88e7c36fee.json",
+					"name" : "lib671",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib672::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib672-Debug-63779d7d05771b655959.json",
+					"name" : "lib672",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib673::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib673-Debug-b1357b21ac8507384ce9.json",
+					"name" : "lib673",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib674::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib674-Debug-09d949822da50270e645.json",
+					"name" : "lib674",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib676::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib676-Debug-8dc5f7937b454ac8d0cb.json",
+					"name" : "lib676",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib677::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib677-Debug-df24f5dae62025db884d.json",
+					"name" : "lib677",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "lib678::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-lib678-Debug-e61521dfc706c18f6b0e.json",
+					"name" : "lib678",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "libauthretry::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-libauthretry-Debug-2083a21087c8c76f9b1f.json",
+					"name" : "libauthretry",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "libcurl_static::@7349aeacaff41deceb36",
+					"jsonFile" : "target-libcurl_static-Debug-bf77e9038b9d703f08a3.json",
+					"name" : "libcurl_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "libntlmconnect::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-libntlmconnect-Debug-1c30d239b219ee93fa32.json",
+					"name" : "libntlmconnect",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "libprereq::@ed4d5c46d023d5a39356",
+					"jsonFile" : "target-libprereq-Debug-0d9bb3654ac3f4acf3fa.json",
+					"name" : "libprereq",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "man::@2578f1a13a47df1940c2",
+					"jsonFile" : "target-man-Debug-6631ad4ed7b6f309618a.json",
+					"name" : "man",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "mqttd::@345044f74dc145e53b02",
+					"jsonFile" : "target-mqttd-Debug-a4371210f2605695a1bb.json",
+					"name" : "mqttd",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opts-man::@fe02a9ef8a74f0774785",
+					"jsonFile" : "target-opts-man-Debug-df492e8ce1945d164196.json",
+					"name" : "opts-man",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "resolve::@345044f74dc145e53b02",
+					"jsonFile" : "target-resolve-Debug-f01de11a9ba19173f6f6.json",
+					"name" : "resolve",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "rtspd::@345044f74dc145e53b02",
+					"jsonFile" : "target-rtspd-Debug-003182d857c42552147a.json",
+					"name" : "rtspd",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "sockfilt::@345044f74dc145e53b02",
+					"jsonFile" : "target-sockfilt-Debug-e60b0acddda9ff1266e9.json",
+					"name" : "sockfilt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "socksd::@345044f74dc145e53b02",
+					"jsonFile" : "target-socksd-Debug-4a29d1043efbacacd4de.json",
+					"name" : "socksd",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "sws::@345044f74dc145e53b02",
+					"jsonFile" : "target-sws-Debug-57c212d5c581eb1da793.json",
+					"name" : "sws",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test-am::@2828819c4108431e8975",
+					"jsonFile" : "target-test-am-Debug-1f3bdf1fe07ddb2e5434.json",
+					"name" : "test-am",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test-ci::@2828819c4108431e8975",
+					"jsonFile" : "target-test-ci-Debug-2e98bce3abc4252c58ec.json",
+					"name" : "test-ci",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test-event::@2828819c4108431e8975",
+					"jsonFile" : "target-test-event-Debug-dd97e7b8b114344391b7.json",
+					"name" : "test-event",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test-full::@2828819c4108431e8975",
+					"jsonFile" : "target-test-full-Debug-31a4d495dc062c373993.json",
+					"name" : "test-full",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test-nonflaky::@2828819c4108431e8975",
+					"jsonFile" : "target-test-nonflaky-Debug-3c0845f76f222e485f2c.json",
+					"name" : "test-nonflaky",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test-quiet::@2828819c4108431e8975",
+					"jsonFile" : "target-test-quiet-Debug-6eae9754b37a0e43f933.json",
+					"name" : "test-quiet",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test-torture::@2828819c4108431e8975",
+					"jsonFile" : "target-test-torture-Debug-e4af0b258255f63d012d.json",
+					"name" : "test-torture",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testdeps::@2828819c4108431e8975",
+					"jsonFile" : "target-testdeps-Debug-b36c4b9c6da79a251611.json",
+					"name" : "testdeps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "tftpd::@345044f74dc145e53b02",
+					"jsonFile" : "target-tftpd-Debug-8a06aa2f3eeb44e342c0.json",
+					"name" : "tftpd",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/duno/CLionProjects/HTTP/cmake-build-debug",
+		"source" : "/Users/duno/CLionProjects/HTTP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

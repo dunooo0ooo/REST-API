@@ -1,0 +1,3 @@
+/Users/duno/CLionProjects/HTTP/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate.dir
+/Users/duno/CLionProjects/HTTP/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/edit_cache.dir
+/Users/duno/CLionProjects/HTTP/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/rebuild_cache.dir
